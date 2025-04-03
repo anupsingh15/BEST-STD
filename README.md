@@ -53,8 +53,8 @@ Check demo/word_tokenization.ipynb
 
 ## Datasets & Pre-trained Models
 
-🔹 **Dataset**: [LibriSpeech Word Alignments](https://github.com/CorentinJ/librispeech-alignments)  
-🔹 **Pre-trained Models**: Download from [Google Drive](https://drive.google.com/drive/folders/1Q07VPmitxqGRfdqhJ-dTpV_YsCrMimMC?usp=sharing)
+- **Dataset**: [LibriSpeech Word Alignments](https://drive.google.com/drive/folders/1Q07VPmitxqGRfdqhJ-dTpV_YsCrMimMC?usp=sharing)
+- **Pre-trained Models**: Download from [Google Drive](https://drive.google.com/drive/folders/1C3Uaal6KxjnpsXkRA6XhitN6MgsXX5fO?usp=sharing)
 
 ## Citation
 
