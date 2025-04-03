@@ -1,27 +1,23 @@
-# Bidirectional Mamba-Enhanced Speech Tokenization for Spoken Content Retrieval
-A fast and efficient speech tokenization approach using bidirectional Mamba for spoken term detection. This repository contains the implementation, datasets, and pre-trained models.
+## About
 
+This repository provides a fast and efficient speech tokenization approach using bidirectional Mamba for spoken term detection.  The proposed method employs a speech tokenizer that generates speaker-agnostic tokens, ensuring consistent token sequences across different utterances of the same word. The repository includes the implementation, datasets, and pre-trained models.
 
-![GitHub stars](https://img.shields.io/github/stars/anupsingh15/BEST-STD?style=social)
-![GitHub forks](https://img.shields.io/github/forks/anupsingh15/BEST-STD?style=social)
-[![License](https://img.shields.io/github/license/anupsingh15/BEST-STD)](LICENSE)
-
-
+> Paper: [BEST-STD: Bidirectional Mamba-Enhanced Speech Tokenization for Spoken Term Detection](https://ieeexplore.ieee.org/abstract/document/10889633)
 
 ## Setup
 
-### Clone the Repository
+#### Clone the Repository
 ```sh
 git clone https://github.com/anupsingh15/BEST-STD.git
 cd BEST-STD
 ```
 
-### Create a Virtual Environment
+#### Create a Virtual Environment
 ```sh
 conda create -n best_std anaconda
 ```
 
-### Install Dependencies
+#### Install Dependencies
 ```sh
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 python -m pip install lightning
@@ -32,7 +28,7 @@ python -m pip install tslearn
 pip install librosa
 ```
 
-### Usage
+## Usage
 ```sh
 Training:
 
