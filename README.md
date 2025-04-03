@@ -4,7 +4,9 @@ A fast and efficient speech tokenization approach using bidirectional Mamba for 
 
 ![GitHub stars](https://img.shields.io/github/stars/anupsingh15/BEST-STD?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/anupsingh15/BEST-STD?style=social)
-![License](https://img.shields.io/github/license/anupsingh15/BEST-STD)
+[![License](https://img.shields.io/github/license/anupsingh15/BEST-STD)](LICENSE)
+
+
 
 ## Setup
 
