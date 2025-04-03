@@ -16,6 +16,12 @@ cd BEST-STD
 #### Create a Virtual Environment
 ```sh
 conda create -n best_std anaconda
+
+Alternatively, you can replicate the Conda environment with the additional dependencies included:
+
+conda env create -f environment.yml
+conda activate best_std
+
 ```
 
 #### Install Dependencies
