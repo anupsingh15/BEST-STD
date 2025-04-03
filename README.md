@@ -4,6 +4,7 @@ This repository provides a fast and efficient speech tokenization approach using
 
 > Paper: [BEST-STD: Bidirectional Mamba-Enhanced Speech Tokenization for Spoken Term Detection](https://ieeexplore.ieee.org/abstract/document/10889633)
 
+
 ## Setup
 
 #### Clone the Repository
@@ -62,3 +63,13 @@ If you find our work useful, please cite:
   organization={IEEE}
 }
 ```
+
+## 🚀 Coming Soon  
+We are actively working on enhancing this method with new features and improvements. Stay tuned for upcoming upgrades, including:  
+
+- More efficient tokens 
+- Improved token consistency across different noise conditions  
+- Faster inference speed 
+- Support for additional languages  
+
+
