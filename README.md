@@ -16,12 +16,13 @@ cd BEST-STD
 #### Create a Virtual Environment
 ```sh
 conda create -n best_std anaconda
+```
 
 Alternatively, you can replicate the Conda environment with the additional dependencies included:
 
+```sh
 conda env create -f environment.yml
 conda activate best_std
-
 ```
 
 #### Install Dependencies
@@ -36,24 +37,27 @@ pip install librosa
 ```
 
 ## Usage
+
+To train the model, run:  
 ```sh
-Training:
+python main.py
+```
 
-To train the model: Run main.py
+To create the database, build the index, and perform retrieval, run:
+```sh
+python retrieval/std.py
+```
 
-Inference:
+For a demonstration of word tokenization, check the following Jupyter Notebook:
 
-Creating database, index, and performing retrieval: Run retrieval/std.py
-
-Tokenization demo:
-
-Check demo/word_tokenization.ipynb
+```sh
+demo/word_tokenization.ipynb
 ```
 
 
 ## Datasets & Pre-trained Models
 
-- **Dataset**: [LibriSpeech Word Alignments](https://drive.google.com/drive/folders/1Q07VPmitxqGRfdqhJ-dTpV_YsCrMimMC?usp=sharing)
+- **Dataset**: [LibriSpeech Word Alignments](https://github.com/CorentinJ/librispeech-alignments)
 - **Pre-trained Models**: Download from [Google Drive](https://drive.google.com/drive/folders/1C3Uaal6KxjnpsXkRA6XhitN6MgsXX5fO?usp=sharing)
 
 ## Citation
